@@ -1,0 +1,22 @@
+header{
+    margin-bottom: 2%;
+}
+
+main input{
+    width: 96.5%;
+    margin-bottom: 5%;
+    border-left:hidden;
+    border-right:hidden;
+    border-top:hidden; 
+    border-color: #343a40;
+    outline:none;
+}
+
+/* .container {
+    margin-left: 17% !important;
+    margin-right: 17% !important;
+} */
+
+p.card-text {
+    margin-bottom: 0;
+}

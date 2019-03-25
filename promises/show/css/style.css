@@ -1,0 +1,31 @@
+.card {
+  margin: 1%; }
+
+div.image-badge {
+  position: relative; }
+  div.image-badge span {
+    position: absolute;
+    top: 95%;
+    left: 80%; }
+
+.spacer {
+  height: 8em; }
+
+a.dropdown-item {
+  margin-left: 0; }
+  a.dropdown-item:hover {
+    cursor: pointer; }
+
+div.dropdown-toggle::after {
+  content: none; }
+
+nav.navbar {
+  z-index: 999999;
+  width: 100%;
+  position: fixed; }
+nav a {
+  margin-left: 18%; }
+nav form {
+  margin-right: 16.5%; }
+
+/*# sourceMappingURL=style.css.map */

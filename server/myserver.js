@@ -10,9 +10,9 @@ const server = http.createServer((req, res) => {
                 <title>Concha</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
             </head>
-                <body>
-                    <img src="https://media.licdn.com/dms/image/C4D03AQHKlU6BWgG6aA/profile-displayphoto-shrink_100_100/0?e=1555545600&v=beta&t=k9Xo-qi2dwHm-DDNOVoQKKV8bDgwAW5XkyCd9fiNNco" style="width: 300px; height: 300px;" alt="" />
-                    <p>GAY</p>
+                <body style="width: 100%">
+                    <img src="https://media.licdn.com/dms/image/C4D03AQHKlU6BWgG6aA/profile-displayphoto-shrink_100_100/0?e=1555545600&v=beta&t=k9Xo-qi2dwHm-DDNOVoQKKV8bDgwAW5XkyCd9fiNNco" style="width: 300px; height: 300px; display: block; margin: 10% auto" alt="" />
+                    <p style="margin: 10px auto">GAY</p>
                 </body>
             </html>`);
 });

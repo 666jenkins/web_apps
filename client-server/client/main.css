@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+h3 {
+    color: rgb(204, 204, 204);
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(128, 0, 0, 0.699);
+    cursor: pointer;
+    margin-top: 0;
+}
+h3:hover{
+    background-color: rgb(129, 4, 0);
+    color:white;
+}
+
+div{
+    background-color:gray;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}

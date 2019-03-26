@@ -1,0 +1,25 @@
+{
+  "name": "web_apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thylordjenkins/web_apps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thylordjenkins/web_apps/issues"
+  },
+  "homepage": "https://github.com/thylordjenkins/web_apps#readme",
+  "dependencies": {
+    "lorem-ipsum": "^2.0.0",
+    "nodemon": "^1.18.10"
+  }
+}

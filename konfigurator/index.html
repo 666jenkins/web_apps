@@ -4,20 +4,29 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Konfigurator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-
-    <main>
-        <div class="cena"></div>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+              <img src="./img/gear.png" height="30" class="d-inline-block align-top" alt="">
+              &nbsp;Konfigurator <small>by Jenkins</small>
+            </a>
+          </nav>
+    </header>
+    
+    <main class="col-6 container mt-5" style="max-width: 700px">
+        <ul class="list-group"></ul>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script type="module">
-        import { init } from './script/main.js'
+        import { init } from './script/controller.js'
         init()
     </script>
 </body>
